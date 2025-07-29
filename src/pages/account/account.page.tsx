@@ -19,9 +19,8 @@ export const AccountPage: React.FC = () => {
   const handleSave = async () => {
     try {
       await saveAccount(accountItem);
-      navigate(appRoutes.accountList); // Redirige a la página de cuentas
+      navigate(appRoutes.accountList);
     } catch (error) {
-      // Opcional: muestra un mensaje si ocurre un error
       alert("No se pudo guardar la cuenta.");
     }
   };
