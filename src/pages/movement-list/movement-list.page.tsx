@@ -47,8 +47,8 @@ export const MovementListPage: React.FC = () => {
           </div>
         </div>
         <div className={classes.accountInfo}>
-          <p>Alias: {account?.name || "--"}</p>
-          <p>IBAN: {account?.iban || "--"}</p>
+          <p>Alias: {account?.name || ""}</p>
+          <p>IBAN: {account?.iban || ""}</p>
         </div>
         <MovementListTableComponent movementList={movementsList} />
       </div>

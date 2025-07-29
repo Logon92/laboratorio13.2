@@ -60,6 +60,8 @@ select, input {
     display: flex;
     background-color: #000;
     height: .05em;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .guardar {
