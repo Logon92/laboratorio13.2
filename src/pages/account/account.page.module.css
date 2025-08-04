@@ -67,3 +67,11 @@ select, input {
 .guardar {
     margin: 1em auto;
 }
+
+.error {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-weight: bold;
+    color: red;
+}
